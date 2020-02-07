@@ -1,0 +1,32 @@
+2020-02-07 21:01:24  [219] PRAGMA journal_mode=WAL
+2020-02-07 21:01:24  [219] PRAGMA foreign_keys=ON
+2020-02-07 21:01:24  [219] PRAGMA busy_timeout=5000
+2020-02-07 21:01:24  [219] PRAGMA synchronous=NORMAL
+2020-02-07 21:01:24  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:24  [219] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2020-02-07 21:01:24  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:01:35  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:35  [219] INSERT INTO blog ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('hi', 'blah', '2020-02-07T21:01:35', '2020-02-07T21:01:35', 1)
+2020-02-07 21:01:35  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:01:35  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:35  [219] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=1 LIMIT 1
+2020-02-07 21:01:35  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:01:43  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:43  [219] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=1 LIMIT 1
+2020-02-07 21:01:43  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:01:44  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:44  [219] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2020-02-07 21:01:44  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:01:53  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:53  [219] INSERT INTO blog ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('hi', 'blah', '2020-02-07T21:01:53', '2020-02-07T21:01:53', 1)
+2020-02-07 21:01:53  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:01:53  [219] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:01:53  [219] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=2 LIMIT 1
+2020-02-07 21:01:53  [219] [COMMIT] [databaseId:0] rdb00_127
+2020-02-07 21:02:37  [273] PRAGMA journal_mode=WAL
+2020-02-07 21:02:37  [273] PRAGMA foreign_keys=ON
+2020-02-07 21:02:37  [273] PRAGMA busy_timeout=5000
+2020-02-07 21:02:37  [273] PRAGMA synchronous=NORMAL
+2020-02-07 21:02:37  [273] [BEGIN] [databaseId:0] rdb00_127
+2020-02-07 21:02:37  [273] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2020-02-07 21:02:37  [273] [COMMIT] [databaseId:0] rdb00_127
